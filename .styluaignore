@@ -1,0 +1,2 @@
+# Exclude third-party packages from formatting
+Packages/
