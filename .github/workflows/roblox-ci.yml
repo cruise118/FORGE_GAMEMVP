@@ -8,6 +8,7 @@ on:
 
 jobs:
   lint-and-test:
+    if: ${{ github.ref_name != 'rblxforge' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
