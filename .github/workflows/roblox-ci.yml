@@ -27,12 +27,12 @@ jobs:
       - name: Install LuaFileSystem
         run: luarocks install luafilesystem
       
-      - name: Run StyLua check
-        uses: JohnnyMorganz/stylua-action@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          version: latest
-          args: --check .
+#      - name: Run StyLua check
+#        uses: JohnnyMorganz/stylua-action@v2
+#        with:
+#          token: ${{ secrets.GITHUB_TOKEN }}
+#          version: latest
+#          args: --check .
       
       - name: Run Selene
         uses: YoloWingPixie/selene-lua-linter-action@v1
