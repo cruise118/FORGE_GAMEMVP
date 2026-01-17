@@ -32,7 +32,7 @@ jobs:
 #        with:
 #          token: ${{ secrets.GITHUB_TOKEN }}
 #          version: latest
-#          args: --check .
+#          args: --check src.
       
       - name: Run Selene
         uses: YoloWingPixie/selene-lua-linter-action@v1
