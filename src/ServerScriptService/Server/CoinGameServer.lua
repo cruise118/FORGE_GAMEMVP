@@ -1,4 +1,5 @@
 -- Leaderboard setup: Add leaderstats and Coins value
+print("HI")
 local function onPlayerAdded(player)
 	local leaderstats = Instance.new("Folder")
 	leaderstats.Name = "leaderstats"
