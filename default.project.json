@@ -13,6 +13,12 @@
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "$path": "src/StarterPlayer"
+      
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$path": "src/StarterGui"
+}
+
     }
   }
 }
