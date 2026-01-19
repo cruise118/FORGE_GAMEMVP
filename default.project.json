@@ -2,23 +2,25 @@
   "name": "Defend-and-Build",
   "tree": {
     "$className": "DataModel",
+
     "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
       "$path": "src/ReplicatedStorage"
     },
+
     "ServerScriptService": {
-      "$className": "ServerScriptService",
       "$path": "src/ServerScriptService"
     },
+
     "StarterPlayer": {
       "$className": "StarterPlayer",
-      "$path": "src/StarterPlayer"
-      
-    "StarterGui": {
-      "$className": "StarterGui",
-      "$path": "src/StarterGui"
-}
-
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
     }
   }
 }
